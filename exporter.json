@@ -1,12 +1,12 @@
 {
-    "id": "io.supernova.tailwind",
+    "id": "io.supernova.kebab-css",
     "name": "Tailwind",
-    "description": "Tailwind CSS exporter",
-    "author": "Florian Torres & Ivan Terpugov & Jiri Trecak",
-    "organization": "Ascanio",
-    "homepage": "https://ascan.io",
+    "description": "Kebab Case CSS exporter",
+    "author": "Mo Gallah",
+    "organization": "",
+    "homepage": "",
     "source_dir": "src",
-    "version": "1.6",
+    "version": "1.0",
     "usesBrands": true,
     "config": {
         "sources": "sources.json",
@@ -18,7 +18,7 @@
         "supernova": "1.0.0"
     },
     "tags": [
-        "TailwindCSS",
+        "CSS",
         "Tokens",
         "Styles"
     ]
