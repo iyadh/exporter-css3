@@ -12,9 +12,9 @@ Pulsar.registerFunction(
     }
     segments.push(token.name);
 
-    if (prefix && prefix.length > 0) {
+    /*if (prefix && prefix.length > 0) {
       segments.unshift(prefix);
-    }
+    }*/
 
     // Create "sentence" separated by spaces so we can camelcase it all
     let sentence = segments.join(" ");
