@@ -7,9 +7,9 @@ Pulsar.registerFunction(
     // Create array with all path segments and token name at the end
     // const segments = [...tokenGroup.path];
     const segments = []; // no need for path in var names
-    if (!tokenGroup.isRoot) {
+    /*if (!tokenGroup.isRoot) {
       segments.push(tokenGroup.name);
-    }
+    }*/
     segments.push(token.name);
 
     /*if (prefix && prefix.length > 0) {
