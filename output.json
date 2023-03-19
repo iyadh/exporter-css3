@@ -27,10 +27,6 @@
         {
             "invoke": "index-file.pr",
             "write_to": "index.css"
-        },
-        {
-            "invoke": "tailwind-variables.pr",
-            "write_to": "tailwind-variables.js"
         }
     ]
 }
