@@ -9,5 +9,7 @@ and their value rendered using `rendered-border` blueprint
 {[ let brand = ds.currentBrand() /]}
 {[ for token in ds.tokensByType("Radius", brand.id) ]}
   {[ inject "rendered-token-var" context token /]}
+
+
 {[/]}
 }
