@@ -45,6 +45,5 @@ This only work for radii. They must be defined within Supernova.
 
 *}
 {[ inject "reference-wrapper" context context ]}
-{[ let unit = "px" /]}
-{{ context.radius.measure }}{{ unit }}
+{{ context.radius.measure }}{{ context.radius.unit }}
 {[/]}
