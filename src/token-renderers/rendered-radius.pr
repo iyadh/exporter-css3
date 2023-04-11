@@ -1,0 +1,50 @@
+{*
+
+Injectable blueprint that represents Radius token as CSS string. 
+Note that this only converts the value, actual name is provided somewhere else
+
+
+Source data: Measure Value (https://developers.supernova.io/latest/design-system-model/design-tokens/radius.html)
+Note: Value is passed as `context` property because it is injected
+
+{
+  "context": {
+    "radius": {
+      "unit": "px",
+      "measure": double
+      "referencedToken": Measure | null
+    },
+    "topLeft": {
+      "unit": "px",
+      "measure": double
+      "referencedToken": Measure | null
+    },
+    "topRight": {
+      "unit": "px",
+      "measure": double
+      "referencedToken": Measure | null
+    },
+    "bottomLeft": {
+      "unit": "px",
+      "measure": double
+      "referencedToken": Measure | null
+    },
+    "bottomRight": {
+      "unit": "px",
+      "measure": double
+      "referencedToken": Measure | null
+    },
+    "referencedToken": Radius | null
+  }
+}
+*}
+
+{*
+
+This only work for radii. They must be defined within Supernova.
+
+*}
+{[ inject "reference-wrapper" context context ]}
+{[ let unit = "px" /]}
+{{ context.radius.measure }}{{ unit }}
+{[/]}
